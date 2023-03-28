@@ -1,11 +1,9 @@
-import Todo from "./components/TodoItem";
+import Todo from './components/TodoItem';
 
-const App = () => {
-  return (
-    <div className="container">
-      <Todo />
-    </div>
-  );
-};
+const App = () => (
+  <div className="container">
+    <Todo />
+  </div>
+);
 
 export default App;
