@@ -83,10 +83,18 @@ const TodoList = () => {
             <p className={todo.completed ? 'completed' : ''}>{todo.name}</p>
           </div>
           <div className="btns">
-            <button className="btn" onClick={() => removeTodo(todo.id)}>
+            <button
+              type="button"
+              className="btn"
+              onClick={() => removeTodo(todo.id)}
+            >
               Remove
             </button>
-            <button className="btn" onClick={() => editTodo(todo.id)}>
+            <button
+              type="button"
+              className="btn"
+              onClick={() => editTodo(todo.id)}
+            >
               Edit
             </button>
           </div>
