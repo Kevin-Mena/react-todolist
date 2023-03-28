@@ -39,7 +39,7 @@ input[type="text"] {
 }
 .wrapper {
   background:lightgrey;
-  max-width: 500px;
+  max-width: 600px;
   margin: 0 auto;
   height: auto;
   border-radius: 0.25rem;
